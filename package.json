@@ -2,7 +2,7 @@
   "name": "eol-converter",
   "displayName": "EOL Converter",
   "description": "Convert End of Line Sequence between CRLF and LF for files and folders via right-click menu",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "publisher": "oijusti",
   "icon": "images/icon.png",
   "repository": {
