@@ -72,13 +72,15 @@
     ]
   },
   "scripts": {
-    "compile": "tsc -p .",
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
     "package": "vsce package"
   },
   "devDependencies": {
     "@types/node": "^20.5.1",
     "@types/vscode": "^1.78.0",
     "typescript": "^5.0.4",
-    "vscode": "^1.1.37"
+    "@vscode/vsce": "^2.15.0"
   }
 }
